@@ -11,7 +11,8 @@ Il sito offre la possibilità di contattare l'addetto all'assistenza e riparazio
 
 * **Pagina Assistenza**: visualizza i vari tipi di ellettrodomestici su cui fa assistenza
 * **Pagina Contatti**: mostra i contatti dell'addetto all'assistenza/riparazione con una mappa della zona su cui opera
-* **Pagina Privacy Policy + Cookie Policy:**: sezione del sito dedicata a conformità normativa (GDPR), modalità di raccolta, utilizzo e protezione dei dati degli utenti, nonché la gestione dei cookie tecnici e di terze parti utilizzati dall'applicazione.
+* **Pagina Privacy Policy + Cookie Policy:**: sezione dedicata a conformità normativa (GDPR), modalità di raccolta, utilizzo e protezione dei dati degli utenti, nonché la gestione dei cookie tecnici e di terze parti utilizzati dall'applicazione.
+* **Pagina Note Legali/Termini di Servizio**: sezione che definisce le condizioni generali di utilizzo del sito web e regola il rapporto tra **FB Service** e i suoi utenti.
 
 ## 🛠 Tecnologie
 Il progetto è ospitato su **Firebase Hosting**.
