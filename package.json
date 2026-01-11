@@ -1,0 +1,11 @@
+{
+  "name": "FB-Service",
+  "version": "2.0",
+  "description": "Sito web di assistenza e riparazioni di elettrodomestici ospitato su Firebase",
+  "author": "Nicola Benetti",
+  "license": "Public",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nicoxl/FB-Service.git"
+  }
+}
