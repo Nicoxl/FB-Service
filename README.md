@@ -1,26 +1,43 @@
-# FB Service
+# 🛠️ FB Service - Web App 
 
-Benvenuti sul sito web **FB Service**, raggiungibile all'indirizzo: https://fbserviceassistenza.web.app/
+Benvenuti nel repository ufficiale di **FB Service**, la piattaforma digitale dedicata ai servizi di assistenza e riparazione elettrodomestici nella Valle dell'Agno (VI).
 
-## 📝 Descrizione
-Questo progetto è una web app sviluppata per presentare l'attività FB Service, che si occupa di assistenza e riparazione di elettrodomestici nella Valle dell'Agno (VI).
+🔗 **Sito Live:** [https://fbserviceassistenza.web.app/](https://fbserviceassistenza.web.app/)
 
-Il sito offre la possibilità di contattare l'addetto all'assistenza e riparazione e a visualizzare i vari tipi di elettrodomestici su cui fa assistenza.
+## 📝 Descrizione del Progetto
+Questa Web App è stata progettata per fornire una presenza online professionale all'attività FB Service. Il sito facilita l'interazione tra i clienti e il tecnico, mettendo in chiaro i servizi offerti e garantendo la massima trasparenza tramite la documentazione legale integrata.
 
 ## ✨ Funzionalità Principali
 
-* **Pagina Assistenza**: visualizza i vari tipi di ellettrodomestici su cui fa assistenza
-* **Pagina Contatti**: mostra i contatti dell'addetto all'assistenza/riparazione con una mappa della zona su cui opera
-* **Pagina Privacy Policy + Cookie Policy:**: sezione dedicata a conformità normativa (GDPR), modalità di raccolta, utilizzo e protezione dei dati degli utenti, nonché la gestione dei cookie tecnici e di terze parti utilizzati dall'applicazione.
-* **Pagina Note Legali/Termini di Servizio**: sezione che definisce le condizioni generali di utilizzo del sito web e regola il rapporto tra **FB Service** e i suoi utenti.
+* **🖥️ Hub Assistenza**: Catalogo delle tipologie di elettrodomestici supportati (lavatrici, lavastoviglie, forni, ecc.).
+* **📞 Centro Contatti**: Sistema di contatto diretto con integrazione di Google Maps per visualizzare l'area operativa nella Valle dell'Agno.
+* **⚖️ Compliance Legale**: Pagine dedicate a **Privacy Policy**, **Cookie Policy** e **Termini di Servizio** in piena conformità con il GDPR.
+* **📱 Design Responsive**: Interfaccia ottimizzata per una navigazione fluida sia da desktop che da dispositivi mobile.
 
-## 🛠 Tecnologie
-Il progetto è ospitato su **Firebase Hosting**.
+## 🛠️ Stack Tecnologico
 
-## 📧 Contatti
-Per assistenza o informazioni:
-* Email: benettinic00@gmail.com
-* Link di supporto: (⚠️Work in Progress)
+* **Hosting**: [Firebase Hosting](https://firebase.google.com/docs/hosting) (Infrastruttura Google per massima velocità e affidabilità).
+* **Frontend**: HTML5, CSS3 moderno e JavaScript.
+* **CI/CD**: GitHub Actions (Distribuzione automatica ad ogni aggiornamento del codice).
+* **Gestione Versioni**: Git & GitHub per il controllo del codice sorgente.
 
----
-Realizzato da Nicola Benetti
+## 🚀 Workflow di Sviluppo (Deploy Automatico)
+
+Il progetto utilizza una pipeline di **Continuous Deployment**. Non è necessario il deploy manuale tramite CLI:
+
+1.  Effettua le modifiche ai file in locale.
+2.  Esegui il `push` sul ramo `main`:
+    ```bash
+    git add .
+    git commit -m "Descrizione della modifica"
+    git push origin main
+    ```
+3.  **GitHub Actions** rileverà il cambiamento e aggiornerà automaticamente il sito live.
+
+## 📁 Struttura del Progetto
+```text
+├── .github/workflows/  # Configurazioni per il Deploy automatico
+├── public/             # File sorgente del sito (HTML, CSS, JS)
+├── firebase.json       # Configurazione Firebase Hosting
+├── package.json        # Gestione dipendenze e script di build
+└── README.md           # Documentazione del progetto
