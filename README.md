@@ -42,3 +42,16 @@ git push origin main
 ├── firebase.json # Firebase Hosting Configuration
 ├── package.json # Dependency Management and Build Scripts
 └── README.md # Project Documentation
+```
+## 🔒 Compliance and Legal Notices
+The project ensures transparency and user protection:
+
+* **[Privacy & Cookie Policy](./public/privacy-policy.html):** GDPR-compliant data management.
+* **[Legal Notices / Terms](./public/terms-notes.html):** Corporate information and terms of service.
+
+## 📞 Contact Information
+* **Owner:** Federico Benetti
+* **Technical Developer:** [Nicola Benetti](https://github.com/Nicoxl)
+
+---
+*Copyright © 2026 JdLed Project Lux - All rights reserved.*
