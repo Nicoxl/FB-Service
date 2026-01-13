@@ -5,7 +5,7 @@ Welcome to the official repository of **FB Service**, the digital platform dedic
 🔗 **Live Site:** [https://fbserviceassistenza.web.app/](https://fbserviceassistenza.web.app/)
 
 ## 📝 Project Description
-This Web App was designed to provide a professional online presence for FB Service. The site facilitates interaction between customers and technicians, clearly highlighting the services offered and ensuring maximum transparency through integrated legal documentation.
+This Web App was designed to provide a professional online presence for FB Service. The site facilitates interaction between customers and the technician, clearly highlighting the services offered and ensuring maximum transparency through integrated legal documentation.
 
 ## ✨ Main Features
 
