@@ -1,43 +1,44 @@
-# 🛠️ FB Service - Web App 
+# 🛠️ FB Service - Web App
 
-Benvenuti nel repository ufficiale di **FB Service**, la piattaforma digitale dedicata ai servizi di assistenza e riparazione elettrodomestici nella Valle dell'Agno (VI).
+Welcome to the official repository of **FB Service**, the digital platform dedicated to appliance assistance and repair services in the Agno Valley (VI).
 
-🔗 **Sito Live:** [https://fbserviceassistenza.web.app/](https://fbserviceassistenza.web.app/)
+🔗 **Live Site:** [https://fbserviceassistenza.web.app/](https://fbserviceassistenza.web.app/)
 
-## 📝 Descrizione del Progetto
-Questa Web App è stata progettata per fornire una presenza online professionale all'attività FB Service. Il sito facilita l'interazione tra i clienti e il tecnico, mettendo in chiaro i servizi offerti e garantendo la massima trasparenza tramite la documentazione legale integrata.
+## 📝 Project Description
+This Web App was designed to provide a professional online presence for FB Service. The site facilitates interaction between customers and technicians, clearly highlighting the services offered and ensuring maximum transparency through integrated legal documentation.
 
-## ✨ Funzionalità Principali
+## ✨ Main Features
 
-* **🖥️ Hub Assistenza**: Catalogo delle tipologie di elettrodomestici supportati (lavatrici, lavastoviglie, forni, ecc.).
-* **📞 Centro Contatti**: Sistema di contatto diretto con integrazione di Google Maps per visualizzare l'area operativa nella Valle dell'Agno.
-* **⚖️ Compliance Legale**: Pagine dedicate a **Privacy Policy**, **Cookie Policy** e **Termini di Servizio** in piena conformità con il GDPR.
-* **📱 Design Responsive**: Interfaccia ottimizzata per una navigazione fluida sia da desktop che da dispositivi mobile.
+* **🖥️ Assistance Hub**: Catalog of supported appliance types (washing machines, dishwashers, ovens, etc.).
+* **📞 Contact Center**: Direct contact system with Google Maps integration to view the operational area in the Agno Valley.
 
-## 🛠️ Stack Tecnologico
+* **⚖️ Legal Compliance**: Dedicated **Privacy Policy**, **Cookie Policy**, and **Terms of Service** pages in full compliance with the GDPR.
+* **📱 Responsive Design**: Interface optimized for smooth navigation on both desktop and mobile devices.
 
-* **Hosting**: [Firebase Hosting](https://firebase.google.com/docs/hosting) (Infrastruttura Google per massima velocità e affidabilità).
-* **Frontend**: HTML5, CSS3 moderno e JavaScript.
-* **CI/CD**: GitHub Actions (Distribuzione automatica ad ogni aggiornamento del codice).
-* **Gestione Versioni**: Git & GitHub per il controllo del codice sorgente.
+## 🛠️ Technology Stack
 
-## 🚀 Workflow di Sviluppo (Deploy Automatico)
+* **Hosting**: [Firebase Hosting](https://firebase.google.com/docs/hosting) (Google infrastructure for maximum speed and reliability).
+* **Frontend**: HTML5, modern CSS3, and JavaScript.
+* **CI/CD**: GitHub Actions (Automatic deployment with every code update).
+* **Version Management**: Git & GitHub for source code control.
 
-Il progetto utilizza una pipeline di **Continuous Deployment**. Non è necessario il deploy manuale tramite CLI:
+## 🚀 Development Workflow (Automatic Deployment)
 
-1.  Effettua le modifiche ai file in locale.
-2.  Esegui il `push` sul ramo `main`:
-    ```bash
-    git add .
-    git commit -m "Descrizione della modifica"
-    git push origin main
-    ```
-3.  **GitHub Actions** rileverà il cambiamento e aggiornerà automaticamente il sito live.
+The project uses a **Continuous Deployment** pipeline. Manual deployment via CLI is not necessary:
 
-## 📁 Struttura del Progetto
+1. Make changes to the files locally.
+2. Push the `main` branch:
+```bash
+git add .
+git commit -m "Description of change"
+git push origin main
+```
+3. **GitHub Actions** will detect the change and automatically update the live site.
+
+## 📁 Project Structure
 ```text
-├── .github/workflows/  # Configurazioni per il Deploy automatico
-├── public/             # File sorgente del sito (HTML, CSS, JS)
-├── firebase.json       # Configurazione Firebase Hosting
-├── package.json        # Gestione dipendenze e script di build
-└── README.md           # Documentazione del progetto
+├── .github/workflows/ # Automatic Deployment Configurations
+├── public/ # Site source files (HTML, CSS, JS)
+├── firebase.json # Firebase Hosting Configuration
+├── package.json # Dependency Management and Build Scripts
+└── README.md # Project Documentation
