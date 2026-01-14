@@ -1,26 +1,57 @@
-# FB Service
+# 🛠️ FB Service - Web App
 
-Benvenuti sul sito web **FB Service**, raggiungibile all'indirizzo: https://fbserviceassistenza.web.app/
+Welcome to the official repository of **FB Service**, the digital platform dedicated to appliance assistance and repair services in the Agno Valley (VI).
 
-## 📝 Descrizione
-Questo progetto è una web app sviluppata per presentare l'attività FB Service, che si occupa di assistenza e riparazione di elettrodomestici nella Valle dell'Agno (VI).
+🔗 **Live Site:** [https://fbserviceassistenza.web.app/](https://fbserviceassistenza.web.app/)
 
-Il sito offre la possibilità di contattare l'addetto all'assistenza e riparazione e a visualizzare i vari tipi di elettrodomestici su cui fa assistenza.
+## 📝 Project Description
+This Web App was designed to provide a professional online presence for FB Service. The site facilitates interaction between customers and the technician, clearly highlighting the services offered and ensuring maximum transparency through integrated legal documentation.
 
-## ✨ Funzionalità Principali
+## ✨ Main Features
 
-* **Pagina Assistenza**: visualizza i vari tipi di ellettrodomestici su cui fa assistenza
-* **Pagina Contatti**: mostra i contatti dell'addetto all'assistenza/riparazione con una mappa della zona su cui opera
-* **Pagina Privacy Policy + Cookie Policy:**: sezione dedicata a conformità normativa (GDPR), modalità di raccolta, utilizzo e protezione dei dati degli utenti, nonché la gestione dei cookie tecnici e di terze parti utilizzati dall'applicazione.
-* **Pagina Note Legali/Termini di Servizio**: sezione che definisce le condizioni generali di utilizzo del sito web e regola il rapporto tra **FB Service** e i suoi utenti.
+* **🖥️ Assistance Hub**: Catalog of supported appliance types (washing machines, dishwashers, ovens, etc.).
+* **📞 Contact Center**: Direct contact system with Google Maps integration to view the operational area in the Agno Valley.
 
-## 🛠 Tecnologie
-Il progetto è ospitato su **Firebase Hosting**.
+* **⚖️ Legal Compliance**: Dedicated **Privacy Policy**, **Cookie Policy**, and **Terms of Service** pages in full compliance with the GDPR.
+* **📱 Responsive Design**: Interface optimized for smooth navigation on both desktop and mobile devices.
 
-## 📧 Contatti
-Per assistenza o informazioni:
-* Email: benettinic00@gmail.com
-* Link di supporto: (⚠️Work in Progress)
+## 🛠️ Technology Stack
+
+* **Hosting**: [Firebase Hosting](https://firebase.google.com/docs/hosting) (Google infrastructure for maximum speed and reliability).
+* **Frontend**: HTML5, modern CSS3, and JavaScript.
+* **CI/CD**: GitHub Actions (Automatic deployment with every code update).
+* **Version Management**: Git & GitHub for source code control.
+
+## 🚀 Development Workflow (Automatic Deployment)
+
+The project uses a **Continuous Deployment** pipeline. Manual deployment via CLI is not necessary:
+
+1. Make changes to the files locally.
+2. Push the `main` branch:
+```bash
+git add .
+git commit -m "Description of change"
+git push origin main
+```
+3. **GitHub Actions** will detect the change and automatically update the live site.
+
+## 📁 Project Structure
+```text
+├── .github/workflows/ # Automatic Deployment Configurations
+├── public/ # Site source files (HTML, CSS, JS)
+├── firebase.json # Firebase Hosting Configuration
+├── package.json # Dependency Management and Build Scripts
+└── README.md # Project Documentation
+```
+## 🔒 Compliance and Legal Notices
+The project ensures transparency and user protection:
+
+* **[Privacy & Cookie Policy](./public/privacy-policy.html):** GDPR-compliant data management.
+* **[Legal Notices / Terms](./public/terms-notes.html):** Corporate information and terms of service.
+
+## 📞 Contact Information
+* **Owner:** Federico Benetti
+* **Technical Developer:** [Nicola Benetti](https://github.com/Nicoxl)
 
 ---
-Realizzato da Nicola Benetti
+*Copyright © 2026 JdLed Project Lux - All rights reserved.*
